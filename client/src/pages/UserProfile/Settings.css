@@ -1,0 +1,144 @@
+.global-container{
+    display: border-box;
+    position: relative;
+    padding: 0 27rem 0 27rem;
+    margin-top: 7rem;
+    
+}
+.icon-container{
+    display:flex;
+}
+.settings-body{
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 3px;
+    display: block;
+}
+.security-setting{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.2rem 1.1rem;
+    background-color: #f5f6f7;
+}
+.login{ 
+    font-weight: bold;
+}
+.form-setting{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f6f7;
+    padding: 1rem;
+}
+.form-header-1{
+   font-size: 0.9rem;
+   padding-left: 0.5rem;
+   font-weight: 500;
+   display: block;
+}
+.form-header-2{
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-left: 0.5rem;
+    display: block;
+    color: grey;
+    padding-top: 0.2rem;
+}
+.form-container{
+    border-top: 1px solid #ccc;
+    margin-top: 0.9rem;
+    padding-bottom: 0.6rem;
+    display: block;
+}
+.form{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding-top: 0.9rem;
+    font-size: 0.9rem;
+}
+table{
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    width: 100%;
+}
+th{
+    display: table-cell;
+}
+tr{
+    display: table-row;
+    vertical-align: middle;
+}
+.form-label{
+    padding-top: 0.5rem;
+    color: #666;
+    font-weight: bold;
+    padding-right: 0.6rem;
+    text-align: right;
+    width: 130px;
+    word-wrap: break-word;  
+}
+.form-input{
+    padding: 0.125rem 0 0.125rem 0;
+    text-align: left;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-actual{
+    margin: auto;
+    display: block;
+    width: 75%;
+    position: relative;
+}
+.inputtext{
+    border-radius: 0.18rem;
+    color: #1c1e21;
+    font-size: 0.8rem;
+    height: 1.05rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.35rem;
+    width: 120%;
+    border: 1px solid #ccd0d5;   
+}
+label{
+    color: #606770;
+    cursor: default;
+    font-weight: 600;
+    vertical-align: middle;
+}
+.submit-container{
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-box{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.submit-form{
+    background-color: #2851A3;
+    border-color: #2851A3;
+    color: #fff;
+    padding: 0.2rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 750;
+    line-height: 1.1rem;
+    margin: 0;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.submit-form:hover{
+    opacity: 75%;
+}
+
+.verifying-text-settings{
+    margin-top: 0.1rem;
+}

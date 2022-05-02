@@ -1,0 +1,52 @@
+#sidebar-container
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin: 1rem;
+    width: 20%;
+}
+
+#sidebar-container a
+{
+    color: black !important; 
+}
+
+.sidebar-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    height: 3rem;
+}
+
+.sidebar-images
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    width: 3rem;
+}
+.sidebar-row:hover
+{
+    background: rgb(230, 230, 230);
+}
+
+.sidebar-text
+{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight:600;
+    padding-left: 10px;
+}
+
+.sidebar-icon
+{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}

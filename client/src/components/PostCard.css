@@ -1,0 +1,335 @@
+.post-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    background: white;
+}
+
+.post-information
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.post-information-column
+{
+    display: flex;
+    flex-direction: column;
+}
+.modify-post
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 2;
+}
+
+
+.three-dots
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.three-dots:hover
+{
+   background: #eff2f4
+}
+
+.modify-options
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    transform: translate(255%, 50%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    width: 10%;
+    z-index: 99;
+    background: white;
+}
+
+.option-item
+{
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    margin: 0.25rem;
+}
+
+.option-item:hover
+{
+    cursor: pointer;
+    background:rgba(0, 0, 0, 0.2)
+}
+
+.option-item:active
+{
+    cursor: pointer;
+    background:rgba(0, 0, 0, 0.4)
+}
+
+.confirm-delete
+{
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    margin: 0.25rem;
+    color: white;
+    background: rgb(240, 0, 0)
+}
+.confirm-delete:hover
+{
+    cursor: pointer;
+    background: rgb(210, 0, 0)
+}
+
+.confirm-delete:active
+{
+    cursor: pointer;
+    background: rgb(180, 0, 0)
+}
+
+
+.edit-mode-options>p
+{
+    width: 5rem;
+    display: flex;
+    padding: 0.25rem;
+    justify-content: center;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+}
+
+.edit-mode-options>p:hover
+{
+    cursor: pointer;
+    filter:brightness(85%)
+}
+
+.edit-mode-textarea
+{
+    overflow: hidden;
+    resize: none;
+    /* min-height: 1rem; */
+    max-height: 20rem;
+    padding: 0.25rem 0.5rem;
+    width: 97% !important;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    border: 1px solid rgb(150, 150, 150); 
+}
+
+.post-information-profile-picture
+{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-information-profile-picture:hover
+{
+    opacity: 80%;
+}
+
+.post-owner
+{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight:600;
+    padding-left: 10px;
+    color: black;
+}
+
+.post-owner:hover
+{
+    text-decoration: underline;
+}
+
+
+.post-date
+{
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.post-date:hover
+{
+    text-decoration: underline;
+}
+
+.post-content-image
+{
+    /* max-height will crop out picture if greater than aspect ratio based on width 100% */
+    max-height: 900px;
+    width: 100%;
+    object-fit: cover;
+}
+#post-image .lazy-load-image-background.blur.lazy-load-image-loaded {
+    max-height: 900px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+.horizontal-divider
+{
+    margin: 5px 0;
+    border: none;
+    background-color: rgba(75, 50, 50, 0.2);
+    height: 1px;
+    width: 100%;
+}
+
+.post-stats
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 0;
+}
+
+.post-stat-likes
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post-likes-number
+{
+    margin: 0px;
+}
+
+.post-actions
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-action
+{
+    width: 50%;
+    font-size: 1rem;
+    border: none;
+    background: white;
+    border-radius: 0.25rem;
+    padding: 5px 0px;
+}
+
+.post-action:hover
+{
+    background: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.post-comment-profile-picture
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-comments-self
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0;
+}
+
+.post-comments-self-input
+{
+    margin: 0 0.75rem;
+    overflow: hidden;
+    resize: none;
+    height: 2.5rem;
+    max-height: 20rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius: 1.5rem;
+    background:rgba(0, 0, 0, 0.02);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    /* border-bottom: 1px solid rgb(150, 150, 150, 0.5);  */
+    box-sizing: border-box;
+}
+
+.post-comments-self-input:focus
+{
+    outline:none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.post-comments-others
+{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.post-comments-others-entry
+{
+    margin: 0 0 0 0.75rem;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.hover-underline
+{
+    font-weight: 600;
+}
+
+.hover-underline:hover
+{
+    text-decoration: underline;
+}
+
+/* .post-comments-reply-details
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    margin:0 0 0 0.75rem;
+    justify-content: space-between;
+}
+
+.post-comments-reply-likes
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+.post-content
+{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+#number-of-likes:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

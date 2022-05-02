@@ -1,0 +1,58 @@
+#root, body {
+    background-color: #eff2f4;
+    margin: 0;
+    padding: 0;
+}
+#albums-page-container {
+    margin-top: 4rem;
+}
+#albums-page-body {
+    margin: 0 15vw;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 5px 0px, rgba(0, 0, 0, 0.01) 0px 0px 0px 1px;
+    margin-bottom: 1rem;
+    padding: 2.5rem 2.5rem 1rem 2.5rem;
+    background-color: rgb(255, 255, 255);
+}
+#albums-page-body h1 {
+    margin: 0;
+    font-size: 1.35rem;
+}
+#albums-item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: calc((100% - 95%)/3);
+    margin: 2rem 0;
+}
+.album-item {
+    width: calc(95% / 4);
+    aspect-ratio: 1 / 1;
+    margin-bottom: calc((100% - 95%)/2);
+}
+.album-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#create-album-container {
+    width: calc(95% / 4);
+    aspect-ratio: 1 / 1;
+}
+#create-album {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(230,230,230);
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    font-size: 3rem;
+    font-weight: lighter;
+    border-radius: 0.75rem;
+    outline: 0.12rem solid rgb(212, 212, 212);
+}
+#create-album-text {
+    margin: 0.75rem 0 0 0;
+    font-size: 1rem;
+    font-weight:600;
+}

@@ -1,0 +1,94 @@
+#root, body {
+    background-color: #eff2f4;
+    margin: 0;
+    padding: 0;
+}
+#album-view-container {
+    margin-top: 4rem;
+}
+.album-view-body {
+    margin: 0 15vw;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 5px 0px, rgba(0, 0, 0, 0.01) 0px 0px 0px 1px;
+    margin-bottom: 1rem;
+    padding: 1.75rem;
+    background-color: rgb(255, 255, 255);
+    max-width: calc(100vw-30vw);
+}
+.album-view-body h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.35rem;
+}
+#album-view-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#right-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0.25rem;
+}
+#album-view-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: calc((100% - 98%)/3);
+}
+.album-view-photo {
+    width: calc(98% / 4);
+    aspect-ratio: 1 / 1;
+}
+#add-photo {
+    margin-bottom: calc((100% - 98%)/3);
+    aspect-ratio: 1 / 1;
+    background-color: rgb(230,230,230);
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    outline: 0.12rem solid rgb(212, 212, 212);
+}
+#add-photo-text {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+#add-photo-text p {
+    margin: 0.25rem;
+    text-align: center;
+}
+.photo-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    outline: 0.12rem solid rgb(212, 212, 212);
+}
+#add-photo:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.album-view-photo:hover {
+    cursor: pointer;
+    filter: brightness(85%);
+}
+#right-header button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+#right-header button:hover {
+    cursor: pointer;
+    background-color:rgb(220, 220, 220);
+    border-radius: 0.25rem;
+}
+#album-photo-count {
+    margin: 0;
+}

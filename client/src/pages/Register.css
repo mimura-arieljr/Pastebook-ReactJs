@@ -1,0 +1,144 @@
+#root, body {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+}
+.box1 {
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    background-color: rgb(255, 255, 255);
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sign-up {
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+.quick-easy {
+    font-size: 0.8rem;
+}
+.signup-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 1px;
+}
+.signup-header-left {
+    display: flex;
+    flex-direction: column;
+}
+.required:after {
+    content:" *";
+    color: red;
+}
+
+.new-user-form {
+    padding: 0.75rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.new-input-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new-input-fields input {
+    width: 22.2rem;
+    height: 2rem;
+    border: 0.12rem solid rgb(212, 212, 212);
+    border-radius: 0.3rem;
+    padding-left: 0.75rem;
+    background-color: rgb(233, 233, 233);
+}
+.input-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 0.5rem; */
+}
+.input-name input {
+    width: 10.3rem;
+}
+.input-firstname {
+    padding-right: 0.5rem;
+}
+.input-emailadd1 {
+    padding-top: 0.5rem;
+}
+.input-emailadd1, .input-username, .input-mobile-number, .input-password1 {
+    padding-bottom: 0.5rem;
+}
+.input-birthday {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.input-birthday input {
+    width: 22.325rem;
+    height: 2.25rem;
+    font-size: 0.85rem;
+    color: gray;
+}
+.input-gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+.input-gender select {
+    width: 23.35rem;
+    height: 2.25rem;
+    border: 0.12rem solid rgb(212, 212, 212);
+    border-radius: 0.3rem;
+    padding-left: 0.75rem;
+    background-color: rgb(233, 233, 233);
+    color: gray;
+}
+.female, .male {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    padding-left: 0.75rem;
+    padding-top: 0.45rem;
+}
+.female {
+    margin-right: 0.75rem;
+}
+.signup-button {
+    display: flex;
+    justify-content: center;
+}
+.signup-button input {
+    padding: 0;
+    width: 6rem;
+    height: 1.75rem;
+    font-weight: bold;
+    color: white;
+    border: 0.12rem solid rgb(212, 212, 212);
+    border-radius: 0.3rem;
+    background-color: #43b62a;
+    cursor: pointer;
+}

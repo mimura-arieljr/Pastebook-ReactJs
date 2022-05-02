@@ -1,0 +1,100 @@
+.profile-top {
+    margin-bottom: 1.2rem;
+    padding-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 1px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 1rem;
+}
+.profile-cover {
+    margin-bottom: .75rem;
+    display: flex;
+    justify-content: center;
+}
+.profile-picture {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 3px;
+    object-fit: cover;
+}
+
+#uploaded-profile-pic {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    size:inherit;
+    object-fit: cover;
+}
+.change-profile-pic-icon {
+    display: flex;
+    flex-direction: row;
+}
+.custom-file-upload {
+    padding: 0;
+    margin: 0;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #9db1d8;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transform: translate(380%, -130%);
+    object-fit: cover;
+    cursor: pointer;
+}
+.custom-file-upload:hover {
+    background-color: #c7c7c7;;
+}
+.profile-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.profile-picture-with-name {
+text-align: center;
+}
+.add-friend {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.75rem;
+}
+#add-friend-button, #friends-profile-header, #pending-friend-request, #accept {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #4267B2;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 750;
+    border: none;
+}
+#friends-profile-header, #pending-friend-request {
+    background-color: rgb(230,230,230);
+    color: black;
+}
+#add-friend-button:hover, #accept:hover {
+    cursor: pointer;
+    background-color: #6082c5;
+}
+.change-profile-pic-icon input[type="file"] {
+    display: none;
+}
+.save-container1 {
+    display: flex;
+    justify-content: center;
+}
+.save-changes1 {
+    display: inline-block;
+    text-align: center;
+}
+.sv-btn {
+    padding: 0.2rem 0.5rem;
+    background-color: #4267B2;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-style: none;
+}
+.sv-btn:hover {
+    opacity: 75%;
+}

@@ -1,0 +1,13 @@
+.holder-two{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.sidebar-left{
+    flex: 1.15;
+}
+
+.body-right{
+    flex: 3.85;
+}

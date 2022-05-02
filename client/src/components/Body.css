@@ -1,0 +1,33 @@
+#body
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin-top: 4rem;
+    width: 100%;
+    /* background: green; */
+}
+
+#left-body
+{
+    position: fixed;
+    width: 30%;
+}
+
+#center-body
+{
+    width: 38%;
+    /* background: yellow; */
+    margin: 0 auto;
+}
+
+#right-body
+{
+    position: fixed;
+    width: 30%;
+}
+.caught-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

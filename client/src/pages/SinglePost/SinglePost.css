@@ -1,0 +1,15 @@
+#single-post
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#single-post-card
+{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}

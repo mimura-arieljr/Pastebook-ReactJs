@@ -1,0 +1,122 @@
+#addbio-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgba(150, 150, 150, 0.5);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+}
+#addbio-content {
+    width: 31.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+.addbio-header {
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 1px;
+    padding: 0.75rem;
+    width: 30rem;
+    margin-bottom: 0.25rem;
+}
+#addbio-header-text {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.addbio-close {
+    position: absolute;
+    right: 0.75rem;
+}
+.addbio-close button {
+    background-color: #e3e6ea;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0 0.45rem;
+}
+.addbio-close button:hover {
+    background-color: #c7c9cc;
+}
+.addbio-textbox {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 1px;
+    padding: 0.75rem 0.75rem 0.5rem 0.75rem;
+}
+.addbio-textbox textarea {
+    width: 30rem;
+    height: 10rem;
+    padding: 1rem 1rem 0 1rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 1rem;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.character-count {
+    display: grid;
+    right: 0;
+    justify-content: flex-end;
+}
+.character-count p {
+    font-size: 0.75rem;
+    color: rgb(94, 93, 93);
+    margin: 0;
+}
+.addbio-textbox textarea::-webkit-scrollbar {
+    width: 0.5rem;
+}
+.addbio-textbox textarea::-webkit-scrollbar-thumb {
+    background: rgb(150, 150, 150);
+    border-radius: 5rem;
+}
+.addbio-textbox textarea::-webkit-scrollbar-track {
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+.addbio-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+.addbio-footer button {
+    border: none;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.addbio-footer input {
+  border: none;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.save-btn {
+    background-color: #1770e4;
+    color: white;
+    padding: 0.5rem 2.5rem;
+}
+.save-btn:hover {
+    background-color: #5183c5;
+}
+.cancel-btn {
+    background-color: #e6eae3;
+    color: black;
+    margin-right: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+.cancel-btn:hover {
+    background-color:rgba(150, 150, 150, 0.5);
+}

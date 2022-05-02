@@ -1,0 +1,52 @@
+#searchdropdown-container
+{
+    background: white;
+    position: absolute;
+    top: 4rem;
+    width: 325px;
+    left: 0;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    z-index: 999999;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 0.5rem;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.searchdropdown-item
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3.25rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.searchdropdown-item:hover
+{
+    background: rgba(0, 0, 0, 0.05)
+}
+
+.searchdropdown-doneby
+{
+    width: 20%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.searchdropdown-doneby-icon
+{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.searchdropdown-action
+{
+    width: 80%;
+}
