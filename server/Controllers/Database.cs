@@ -7,8 +7,9 @@ public class Database
     static Database()
     {
         // Environment.SetEnvironmentVariable("");
-        // DB_CONNECTION_STRING = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING");
-        DB_CONNECTION_STRING = "Server=localhost;Database=pastebookdb;User Id=sa;Password=myPassw0rd;";
+        // // DB_CONNECTION_STRING = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING");
+        // DB_CONNECTION_STRING = "Server=localhost;Database=pastebookdb;User Id=sa;Password=myPassw0rd;"; // for macintosh
+        DB_CONNECTION_STRING = "Server=localhost;Database=pastebookdb;Trusted_Connection=True;"; // For windows
     }
 
     public static SqlConnection OpenDatabase()
